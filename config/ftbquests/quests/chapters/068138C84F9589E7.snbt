@@ -1,0 +1,1062 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "068138C84F9589E7"
+	group: "02322054CB7A5D32"
+	hide_quest_details_until_startable: true
+	icon: "ars_nouveau:blank_glyph"
+	id: "068138C84F9589E7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "2183D1BF7482593C"
+			shape: "diamond"
+			tasks: [{
+				id: "160B78FCC9F68199"
+				item: "ars_nouveau:glyph_fangs"
+				type: "item"
+			}]
+			x: -36.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "7AF4B92B1321D915"
+			shape: "diamond"
+			tasks: [{
+				id: "04DA654F90F692CF"
+				item: "ars_nouveau:glyph_launch"
+				type: "item"
+			}]
+			x: -38.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "3FDB08388719653A"
+			shape: "diamond"
+			tasks: [{
+				id: "6A059E5C19B060C8"
+				item: "ars_nouveau:glyph_freeze"
+				type: "item"
+			}]
+			x: -34.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "5B42B3FAD43F8A74"
+			shape: "diamond"
+			tasks: [{
+				id: "7FBB01F0C1B3FD6E"
+				item: "ars_nouveau:glyph_delay"
+				type: "item"
+			}]
+			x: -35.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "1D63F55F5A5F5C55"
+			shape: "diamond"
+			tasks: [{
+				id: "4BDC87F68A967897"
+				item: "ars_nouveau:glyph_crush"
+				type: "item"
+			}]
+			x: -34.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "2E960422673894BE"
+			shape: "diamond"
+			tasks: [{
+				id: "57ACDFFB34E2D473"
+				item: "ars_nouveau:glyph_gravity"
+				type: "item"
+			}]
+			x: -39.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "3569935C9B9A1DDA"
+			shape: "diamond"
+			tasks: [{
+				id: "6C0E2D3DE84F0625"
+				item: "ars_nouveau:glyph_grow"
+				type: "item"
+			}]
+			x: -34.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "6F88E133BB4C32A7"
+			shape: "diamond"
+			tasks: [{
+				id: "0D582241D7E3ADC1"
+				item: "ars_nouveau:glyph_flare"
+				type: "item"
+			}]
+			x: -37.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "5B190816DC6952AD"
+			shape: "diamond"
+			tasks: [{
+				id: "775D20BC2F371C9A"
+				item: "ars_nouveau:glyph_harm"
+				type: "item"
+			}]
+			x: -38.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "1C309B31AF7E4985"
+			shape: "diamond"
+			tasks: [{
+				id: "1C1022A8DC410BB8"
+				item: "ars_additions:glyph_retaliate"
+				type: "item"
+			}]
+			x: -38.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "0E7F201ADBB11C27"
+			shape: "diamond"
+			tasks: [{
+				id: "59D6032F4F512A7B"
+				item: "ars_additions:glyph_recall"
+				type: "item"
+			}]
+			x: -36.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "5C15731AC7CDC5B0"
+			shape: "diamond"
+			tasks: [{
+				id: "32E013080E2DFD83"
+				item: "ars_nouveau:glyph_self"
+				type: "item"
+			}]
+			x: -36.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "5B80B1D710357705"
+			shape: "diamond"
+			tasks: [{
+				id: "21A67A518B79259B"
+				item: "ars_nouveau:glyph_touch"
+				type: "item"
+			}]
+			x: -35.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "2B7CFCAFBF3E05A8"
+			shape: "diamond"
+			tasks: [{
+				id: "2A106222A45EB108"
+				item: "ars_nouveau:glyph_underfoot"
+				type: "item"
+			}]
+			x: -37.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "4CFA87312640E58A"
+			shape: "diamond"
+			tasks: [{
+				id: "01C2545BB199A895"
+				item: "ars_nouveau:glyph_projectile"
+				type: "item"
+			}]
+			x: -38.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "0909A3D686693BDA"
+			shape: "diamond"
+			tasks: [{
+				id: "3C640C9AA2BA13BD"
+				item: "ars_nouveau:glyph_extract"
+				type: "item"
+			}]
+			x: -36.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "4A7E744E5B793AE0"
+			shape: "diamond"
+			tasks: [{
+				id: "2446647FE5A8BFAB"
+				item: "ars_nouveau:glyph_extend_time"
+				type: "item"
+			}]
+			x: -37.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "06615208BA4939A2"
+			shape: "diamond"
+			tasks: [{
+				id: "248A923D55933E11"
+				item: "ars_nouveau:glyph_dampen"
+				type: "item"
+			}]
+			x: -37.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "744E9FEF178984E1"
+			shape: "diamond"
+			tasks: [{
+				id: "4BED996BB6C7E98F"
+				item: "ars_nouveau:glyph_pierce"
+				type: "item"
+			}]
+			x: -36.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "7AE7D776F9719EA8"
+			shape: "diamond"
+			tasks: [{
+				id: "3BDFF4EE833D0FC6"
+				item: "ars_nouveau:glyph_split"
+				type: "item"
+			}]
+			x: -36.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "77259AE98B857682"
+			shape: "diamond"
+			tasks: [{
+				id: "2B12CACD6F8CBE44"
+				item: "ars_nouveau:glyph_aoe"
+				type: "item"
+			}]
+			x: -38.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "7FEFE265360BC519"
+			shape: "diamond"
+			tasks: [{
+				id: "2FDDEB016F0DA4A9"
+				item: "ars_nouveau:glyph_duration_down"
+				type: "item"
+			}]
+			x: -35.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "3ABDFF946A1AA0BB"
+			shape: "diamond"
+			tasks: [{
+				id: "58523D38129C2CBE"
+				item: "ars_nouveau:glyph_fortune"
+				type: "item"
+			}]
+			x: -38.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "4FA644C554868063"
+			shape: "diamond"
+			tasks: [{
+				id: "45B33E41D03F1B87"
+				item: "ars_nouveau:glyph_decelerate"
+				type: "item"
+			}]
+			x: -37.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "15C0D5247E126712"
+			shape: "diamond"
+			tasks: [{
+				id: "7E0701806FF7BA5D"
+				item: "ars_nouveau:glyph_randomize"
+				type: "item"
+			}]
+			x: -36.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "56359CE7454281F4"
+			shape: "diamond"
+			tasks: [{
+				id: "0ABBB8B60E20F5E5"
+				item: "ars_nouveau:glyph_accelerate"
+				type: "item"
+			}]
+			x: -36.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "0CBF8C31A02A6597"
+			shape: "diamond"
+			tasks: [{
+				id: "6B9E576B230987B5"
+				item: "ars_nouveau:glyph_amplify"
+				type: "item"
+			}]
+			x: -37.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "08397615A2C2B9C5"
+			shape: "diamond"
+			tasks: [{
+				id: "4FAB863C452BA913"
+				item: "ars_nouveau:glyph_sensitive"
+				type: "item"
+			}]
+			x: -38.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "6A2BD311195AD7E7"
+			shape: "diamond"
+			tasks: [{
+				id: "5576B35EF3957E94"
+				item: "ars_nouveau:glyph_ignite"
+				type: "item"
+			}]
+			x: -37.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "5167810CF9801FD5"
+			shape: "diamond"
+			tasks: [{
+				id: "73D4EBE6E88AB21A"
+				item: "ars_nouveau:glyph_infuse"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "09820594DCE282F3"
+			shape: "diamond"
+			tasks: [{
+				id: "47858545705137FD"
+				item: "ars_nouveau:glyph_hex"
+				type: "item"
+			}]
+			x: -35.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "6E4A4056DC936F87"
+			shape: "diamond"
+			tasks: [{
+				id: "50FD5B113AE8B387"
+				item: "ars_nouveau:wololo"
+				type: "item"
+			}]
+			x: -40.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "2DFE056E390382D8"
+			shape: "diamond"
+			tasks: [{
+				id: "69F456A55B12E724"
+				item: "ars_nouveau:glyph_explosion"
+				type: "item"
+			}]
+			x: -40.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "471A5D0596F59D76"
+			shape: "diamond"
+			tasks: [{
+				id: "723ECF20716DC179"
+				item: "ars_nouveau:glyph_wind_shear"
+				type: "item"
+			}]
+			x: -34.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "2B9EF80019B4F092"
+			shape: "diamond"
+			tasks: [{
+				id: "1DB12AD8F3173EF4"
+				item: "ars_nouveau:glyph_toss"
+				type: "item"
+			}]
+			x: -41.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "5538E73BCE827BB6"
+			shape: "diamond"
+			tasks: [{
+				id: "124C30FA64D40617"
+				item: "ars_nouveau:glyph_animate_block"
+				type: "item"
+			}]
+			x: -36.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "493500548C80B977"
+			shape: "diamond"
+			tasks: [{
+				id: "2428DA1C867D7901"
+				item: "ars_nouveau:glyph_summon_undead"
+				type: "item"
+			}]
+			x: -37.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "55957ECB37CAA384"
+			shape: "diamond"
+			tasks: [{
+				id: "69D7FA6D0B3994B0"
+				item: "ars_nouveau:glyph_break"
+				type: "item"
+			}]
+			x: -37.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "283BD7DC4E61D6CF"
+			shape: "diamond"
+			tasks: [{
+				id: "1D8F95A730CA4617"
+				item: "ars_nouveau:glyph_place_block"
+				type: "item"
+			}]
+			x: -33.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "3626D4DF5EC6EEFB"
+			shape: "diamond"
+			tasks: [{
+				id: "569A41E78F9D2BAC"
+				item: "ars_nouveau:glyph_pull"
+				type: "item"
+			}]
+			x: -34.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "3BB4EFA5C66803B7"
+			shape: "diamond"
+			tasks: [{
+				id: "0D15BB73A0E6809E"
+				item: "ars_nouveau:glyph_summon_decoy"
+				type: "item"
+			}]
+			x: -37.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "631E90EBC7B0075C"
+			shape: "diamond"
+			tasks: [{
+				id: "69F7AE86B219701B"
+				item: "ars_nouveau:glyph_summon_steed"
+				type: "item"
+			}]
+			x: -41.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "3DEE6A3DFB40EC0B"
+			shape: "diamond"
+			tasks: [{
+				id: "219226069A4A41A5"
+				item: "ars_nouveau:glyph_summon_wolves"
+				type: "item"
+			}]
+			x: -33.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "26FC398676E82F3C"
+			shape: "diamond"
+			tasks: [{
+				id: "622C1D33DA80FE95"
+				item: "ars_nouveau:glyph_name"
+				type: "item"
+			}]
+			x: -38.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "25360F7EB26E206C"
+			shape: "diamond"
+			tasks: [{
+				id: "0E669114F6A172F9"
+				item: "ars_nouveau:glyph_interact"
+				type: "item"
+			}]
+			x: -40.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "4124BE2B81E8F437"
+			shape: "diamond"
+			tasks: [{
+				id: "7716C3E99FA8ECDF"
+				item: "ars_nouveau:glyph_evaporate"
+				type: "item"
+			}]
+			x: -40.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "5D19BC66E5E889CE"
+			shape: "diamond"
+			tasks: [{
+				id: "7C360BC673EDFCCF"
+				item: "ars_nouveau:glyph_heal"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "5585FD4290EA1129"
+			shape: "diamond"
+			tasks: [{
+				id: "38B2311F9BB18B68"
+				item: "ars_nouveau:glyph_wither"
+				type: "item"
+			}]
+			x: -39.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "5A409C679CF46009"
+			shape: "diamond"
+			tasks: [{
+				id: "3B6575B7460E052E"
+				item: "ars_nouveau:glyph_snare"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "322542E5201A6109"
+			shape: "diamond"
+			tasks: [{
+				id: "19C4E64047D6F321"
+				item: "ars_nouveau:glyph_pickup"
+				type: "item"
+			}]
+			x: -33.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "190C9DD7BE40F005"
+			shape: "diamond"
+			tasks: [{
+				id: "0549AF07CEEB845A"
+				item: "ars_nouveau:glyph_craft"
+				type: "item"
+			}]
+			x: -39.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "0344D2AB705C7E6C"
+			shape: "diamond"
+			tasks: [{
+				id: "66D6019D0C3A4DB9"
+				item: "ars_nouveau:burst"
+				type: "item"
+			}]
+			x: -38.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "3600356ECADA0D1B"
+			shape: "diamond"
+			tasks: [{
+				id: "3EE4A7991C0175D4"
+				item: "ars_nouveau:glyph_exchange"
+				type: "item"
+			}]
+			x: -39.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "23233FAE29D9CC24"
+			shape: "diamond"
+			tasks: [{
+				id: "7B261BB75E21AC58"
+				item: "ars_nouveau:glyph_orbit"
+				type: "item"
+			}]
+			x: -38.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "74ACD9DF7D39FD92"
+			shape: "diamond"
+			tasks: [{
+				id: "0D7BB943FD077F6E"
+				item: "ars_nouveau:glyph_slowfall"
+				type: "item"
+			}]
+			x: -34.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "690F0D4C69C3C702"
+			shape: "diamond"
+			tasks: [{
+				id: "0F71F5226EF44922"
+				item: "ars_nouveau:glyph_gust"
+				type: "item"
+			}]
+			x: -34.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "34D6C2FFF7472B72"
+			shape: "diamond"
+			tasks: [{
+				id: "7206193B112D1F54"
+				item: "ars_nouveau:glyph_lightning"
+				type: "item"
+			}]
+			x: -36.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "101C382AD8F7F03E"
+			shape: "diamond"
+			tasks: [{
+				id: "09EE4592CBEEB869"
+				item: "ars_nouveau:glyph_cold_snap"
+				type: "item"
+			}]
+			x: -39.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "01C1CFCFFB2CBA5C"
+			shape: "diamond"
+			tasks: [{
+				id: "45CECA365CE77C28"
+				item: "ars_nouveau:glyph_conjure_water"
+				type: "item"
+			}]
+			x: -35.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "4A831116CE2928A4"
+			shape: "diamond"
+			tasks: [{
+				id: "0EC73A917FE150F0"
+				item: "ars_nouveau:glyph_phantom_block"
+				type: "item"
+			}]
+			x: -33.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "3FAFBFD294CC30B4"
+			shape: "diamond"
+			tasks: [{
+				id: "3277A5D3D5837750"
+				item: "ars_nouveau:glyph_light"
+				type: "item"
+			}]
+			x: -41.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "2C5FA55BC0E24C9D"
+			shape: "diamond"
+			tasks: [{
+				id: "78B6183D4BBD62A7"
+				item: "ars_nouveau:glyph_invisibility"
+				type: "item"
+			}]
+			x: -39.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "473C8B2B611D574D"
+			shape: "diamond"
+			tasks: [{
+				id: "52E2A84331237AC1"
+				item: "ars_nouveau:glyph_dispel"
+				type: "item"
+			}]
+			x: -34.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "70443CC88019BC40"
+			shape: "diamond"
+			tasks: [{
+				id: "0F7D1F4868DC2134"
+				item: "ars_nouveau:rewind"
+				type: "item"
+			}]
+			x: -35.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "0C5A5A1231D39AE6"
+			shape: "diamond"
+			tasks: [{
+				id: "0CC905CC37F38358"
+				item: "ars_nouveau:reset"
+				type: "item"
+			}]
+			x: -40.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "1BFB313E232D93AD"
+			shape: "diamond"
+			tasks: [{
+				id: "2B28A55EEE731B2C"
+				item: "ars_nouveau:glyph_fell"
+				type: "item"
+			}]
+			x: -39.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "6904EC6074BE1DAA"
+			shape: "diamond"
+			tasks: [{
+				id: "1B407D5CDD8FD1E2"
+				item: "ars_nouveau:glyph_bounce"
+				type: "item"
+			}]
+			x: -32.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "015E2171B1FE44C6"
+			shape: "diamond"
+			tasks: [{
+				id: "61A64DB547DDA862"
+				item: "ars_nouveau:glyph_smelt"
+				type: "item"
+			}]
+			x: -38.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "5ED58EF6C6778753"
+			shape: "diamond"
+			tasks: [{
+				id: "747B9709D3932F7E"
+				item: "ars_additions:glyph_mark"
+				type: "item"
+			}]
+			x: -37.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "22F0266571E93ACB"
+			shape: "diamond"
+			tasks: [{
+				id: "59F2562FC7078C7C"
+				item: "ars_nouveau:glyph_rune"
+				type: "item"
+			}]
+			x: -35.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "58F83261E0BDD28C"
+			shape: "diamond"
+			tasks: [{
+				id: "489CF63C9FD4424F"
+				item: "ars_nouveau:glyph_cut"
+				type: "item"
+			}]
+			x: -36.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "1C3019E7BF3B68E9"
+			shape: "diamond"
+			tasks: [{
+				id: "18678FFED553D34F"
+				item: "ars_nouveau:glyph_leap"
+				type: "item"
+			}]
+			x: -39.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "10F655C8F9D2C76B"
+			shape: "diamond"
+			tasks: [{
+				id: "0F51E30DA28858BD"
+				item: "ars_nouveau:glyph_redstone_signal"
+				type: "item"
+			}]
+			x: -36.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "389B471B55DD182B"
+			shape: "diamond"
+			tasks: [{
+				id: "6101C625CE7975FA"
+				item: "ars_nouveau:glyph_ender_inventory"
+				type: "item"
+			}]
+			x: -40.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "6C970D2D61BF5292"
+			shape: "diamond"
+			tasks: [{
+				id: "00FAA02557B1B7F3"
+				item: "ars_nouveau:glyph_firework"
+				type: "item"
+			}]
+			x: -34.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2B548E33B89BBA4B"]
+			id: "5FA49F87DB725FE6"
+			shape: "diamond"
+			tasks: [{
+				id: "106DF64D63A13A8C"
+				item: "ars_nouveau:glyph_sense_magic"
+				type: "item"
+			}]
+			x: -39.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "2B96BB1FFB70A343"
+			shape: "diamond"
+			tasks: [{
+				id: "2DC956BF5105E770"
+				item: "ars_nouveau:glyph_harvest"
+				type: "item"
+			}]
+			x: -39.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "30A9E29F12F4507B"
+			shape: "diamond"
+			tasks: [{
+				id: "5876EEB83F355599"
+				item: "ars_nouveau:glyph_linger"
+				type: "item"
+			}]
+			x: -38.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "06EF064F8C3C04E3"
+			shape: "diamond"
+			tasks: [{
+				id: "3EB7C88EF409959E"
+				item: "ars_nouveau:glyph_wall"
+				type: "item"
+			}]
+			x: -36.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "3315A13FAB2342F1"
+			shape: "diamond"
+			tasks: [{
+				id: "31726D6A717AF6C0"
+				item: "ars_nouveau:glyph_glide"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "0E42A59E52BB7718"
+			shape: "diamond"
+			tasks: [{
+				id: "334066C3670590B2"
+				item: "ars_nouveau:glyph_blink"
+				type: "item"
+			}]
+			x: -38.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "6E2F9A733C908DA6"
+			shape: "diamond"
+			tasks: [{
+				id: "1F4F24621565E1D4"
+				item: "ars_nouveau:glyph_leap"
+				type: "item"
+			}]
+			x: -33.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75D51BA1DE499224"]
+			id: "419749A33884DAC2"
+			shape: "diamond"
+			tasks: [{
+				id: "7F5E4586C5C6742E"
+				item: "ars_nouveau:glyph_summon_vex"
+				type: "item"
+			}]
+			x: -37.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0FA7E11B396C17C0"]
+			id: "3461241FE5C6A538"
+			shape: "diamond"
+			tasks: [{
+				id: "4BD8F94E6EBAA214"
+				item: "ars_nouveau:glyph_rotate"
+				type: "item"
+			}]
+			x: -41.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CF173BD23EC88F4"]
+			hide_dependency_lines: false
+			id: "0FA7E11B396C17C0"
+			shape: "gear"
+			tasks: [{
+				id: "7AA3378F556D4632"
+				title: "I глифы"
+				type: "checkmark"
+			}]
+			title: "I Глифы"
+			x: -37.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["303F5C44A8404375"]
+			id: "2B548E33B89BBA4B"
+			shape: "gear"
+			tasks: [{
+				id: "0752CF3C4FE21CEE"
+				title: "II глифы"
+				type: "checkmark"
+			}]
+			title: "II Глифы"
+			x: -37.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["00542A4FB2CAF258"]
+			hide_until_deps_complete: false
+			id: "75D51BA1DE499224"
+			shape: "gear"
+			tasks: [{
+				id: "0EA8F8E23D1E7480"
+				title: "III Глифы"
+				type: "checkmark"
+			}]
+			x: -37.0d
+			y: -8.5d
+		}
+	]
+	title: "Кодекс древней магии"
+}

@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "7C791CB527BD36B2", title: "Пролог" }
+		{ id: "4BDD22812699F3B9", title: "Сюжет" }
+		{ id: "0210EFBC173E5B28", title: "Подглава 4" }
+		{ id: "439C3A6DE2330BF0", title: "Подглава 9" }
+		{ id: "02322054CB7A5D32", title: "Подглава 10" }
+		{ id: "1C5C6296275C66F6", title: "Эпилог" }
+	]
+}

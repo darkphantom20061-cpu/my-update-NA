@@ -1,0 +1,17 @@
+
+[stone_distribution_settings]
+	#Allows players to select a stone when entering the world
+	first_join_stones_distribution = false
+	#Enables the One Player, one Power mode
+	one_player_limit_stones = true
+	#Limits the number of stones to receive and includes their uniqueness
+	limit_number_stones = true
+
+[additional_features]
+	#Enables and disables the level system
+	enable_levels = true
+
+[experimental_features]
+	#Enables and disables the runes (1.2)
+	enable_runes = false
+

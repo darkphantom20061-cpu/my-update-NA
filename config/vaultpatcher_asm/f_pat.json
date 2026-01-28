@@ -1,0 +1,65 @@
+[
+  {
+    "name": "F_pat",
+    "desc": "F_pat",
+    "mods": "F_pat.",
+    "authors": "",
+    "dynamic": false,
+    "i18n": false
+  },
+  {
+    "t": {
+      "name": "vice/sol_valheim/SOLValheim"
+    },
+    "p": [
+      {
+        "k": " Minute",
+        "v": " Минут"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "vice/sol_valheim/SOLValheim"
+    },
+    "p": [
+      {
+        "k": " Regen",
+        "v": " Регенерации"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "vice/sol_valheim/SOLValheim"
+    },
+    "p": [
+      {
+        "k": " Heart",
+        "v": " Сердец"
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "vice/sol_valheim/SOLValheim"
+    },
+    "p": [
+      {
+        "k": "s",
+        "v": ""
+      }
+    ]
+  },
+  {
+    "t": {
+      "name": "vice/sol_valheim/SOLValheim"
+    },
+    "p": [
+      {
+        "k": "☠ Empties Your Stomach!",
+        "v": "☠ Опустошение желудка"
+      }
+    ]
+  }
+]

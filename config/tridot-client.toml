@@ -1,0 +1,21 @@
+
+#Graphics
+[graphics]
+	#Intensity of screenshake.
+	#Range: 0.0 ~ 10.0
+	screenshakeIntensity = 1.0
+	#When enabled shows the overlay after using a weapon ability (Default: true)
+	#Reload Resourcepacks after turning this on (F3+T)
+	AbilityOverlay = true
+	#Custom bossbars
+	CustomBossbars = true
+	#Bossbar boss titles
+	BossbarTitles = true
+
+	#Particles
+	[graphics.particles]
+		#Enable dropping items particles.
+		itemParticle = true
+		#Enable items particles in GUI.
+		itemGuiParticle = true
+

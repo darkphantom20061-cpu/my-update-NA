@@ -1,0 +1,5 @@
+
+[visuals]
+	#Position of the food slots on the HUD (accepted values: default, bottom_right, bottom_left)
+	food_hud_position = "default"
+

@@ -1,0 +1,5 @@
+
+[general]
+	#Enable the Mending enchantment in the enchanting system.
+	enableMending = false
+

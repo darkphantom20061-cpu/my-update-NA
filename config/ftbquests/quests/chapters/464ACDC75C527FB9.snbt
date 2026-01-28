@@ -1,0 +1,408 @@
+{
+	autofocus_id: "207F9B5E090AAC2E"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	default_quest_size: 2.0d
+	filename: "464ACDC75C527FB9"
+	group: "0210EFBC173E5B28"
+	hide_quest_details_until_startable: true
+	icon: "alexscaves:fissile_core"
+	id: "464ACDC75C527FB9"
+	images: [
+		{
+			height: 3.0d
+			image: "skilltree:textures/screen/favorite_skill.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "skilltree:textures/screen/favorite_skill.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			height: 2.5d
+			image: "born_in_chaos_v1:textures/particle/infernaltrail_8.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -2.0d
+			y: 1.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3223DDAB752140E9"]
+			description: [
+				"Я медленно спустился в темные глубины пещеры, ощущая, как холод и тьма охватывают меня. Внутри царила абсолютная тишина, нарушаемая лишь моим дыханием и эхом моих шагов по скользкому каменному полу. В темноте я чувствовал, как под ногами шуршат склизкие камни, покрытые тонкой пленкой радиоактивной пыли. В воздухе витал тяжелый, гнетущий запах — смесь озона, гари и чего-то неземного."
+				"Внутри пещеры начало просачиваться слабое зеленоватое свечение, которое струилось из трещин и кристаллов в стенах, окрашивая окружающие камни в таинственный оттенок. Это мерцание придавало всему месту зловещий и загадочный вид. Я ощущал, как в этом зловещем свете скрыты древние тайны или опасности, которые могут изменить всё."
+			]
+			id: "6691B4FCC73EC9B2"
+			rewards: [{
+				id: "0BA8D37852C378A3"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Войдите в ядерные пещеры"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/discover_toxic_caves"
+				criterion: ""
+				id: "090909051129D02A"
+				type: "advancement"
+			}]
+			title: "Да начнеться фелаут!"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6691B4FCC73EC9B2"]
+			description: ["О черт! Стоило мне оступиться на скользкой, покрытой мхом скале, и я полетел в эти ужасающие кислотные воды.  В мгновение ока,  ледяная, едкая жидкость обрушилась на меня, окутав меня с головы до ног.  Запах был невыносим, резкий, жгучий, словно смесь серной кислоты и расплавленного металлолома.  В тот же миг,  я ощутил, как жгучая боль пронзила всё моё тело.  Одежда, казалось, моментально начала растворяться,  как будто это не ткань, а обычный воск под воздействием пламени.  Ткань буквально таяла на глазах,  оставляя на моей коже неприятно жгучие, словно раскалённые угли, следы. Это я еще легко отделался."]
+			id: "353E8F010396BFCD"
+			rewards: [{
+				id: "09E469EE52DB599C"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Искупайтесь в кислоте"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/enter_acid_with_armor"
+				criterion: ""
+				id: "6046C676499F90B4"
+				type: "advancement"
+			}]
+			title: "Борьба с паразитами"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["599942C770D5DED6"]
+			description: ["Рядом с серными залежами, в стенах, я обнаружил залежи урана.  Тёмно-серые, почти чёрные. Они  сияли  слабым,  невидимым невооружённым глазом,  зелёным свечением,  от которого  внутри  меня  пробежала  волна  неуверенности.  Нужно  быть  поосторожнее с ним,  но  он  тоже  может  оказаться  полезным."]
+			id: "5555EFC3B2E7C926"
+			rewards: [{
+				id: "112C37A7828B818D"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Добудьте уран"
+			tasks: [{
+				id: "5FFAE31CEDA5CF11"
+				item: "alexscaves:uranium"
+				type: "item"
+			}]
+			title: "Изумруд с сюрпризом"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5555EFC3B2E7C926"]
+			description: ["Мне удалось сконцентрировать уран в урановые стержни, что позволит использовать его силу себе во благо."]
+			id: "0E67A22A5EF0425A"
+			rewards: [{
+				count: 2
+				id: "386483016B4A87BF"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создайте урановый стержень"
+			tasks: [{
+				id: "050782AAD54BFF13"
+				item: "alexscaves:uranium_rod"
+				type: "item"
+			}]
+			title: "Опасный леденец"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5555EFC3B2E7C926"]
+			description: ["А ещё я наткнулся на гейзеры с радоновым газом!  Надо бы собрать в бутылки — уверен на все сто, это ещё понадобится.  Пар, словно  огненные  струи,  бил  из  трещин  в  скале,  несущий  с  собой  невидимые,  тяжёлые  частицы  радона.  Я  осторожно  приблизился,  вдыхая  его  токсичный,  слегка  сладковатый запах.  Сердце  забилось  быстрее.  Это  действительно  радон,  и  его  нельзя  просто  так  брать.  Нужно  быть  крайне  осторожным.  Я  достал  несколько  прочных  бутылей  из  своего  рюкзака, По  одному  вставляя  их  в  раскалённые  гейзеры."]
+			id: "168B512EF55FEE98"
+			rewards: [{
+				count: 2
+				id: "5044A14E72CD6C88"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Наполните бутылки радоном"
+			tasks: [{
+				id: "29EB92AC9207B65D"
+				item: "alexscaves:radon_bottle"
+				type: "item"
+			}]
+			title: "Бытлочка зеленой смерти"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5555EFC3B2E7C926"
+				"168B512EF55FEE98"
+			]
+			description: ["Круто, что собранные материалы пригодятся для химической защитной одежды.  Теперь вперед!"]
+			id: "207F9B5E090AAC2E"
+			rewards: [{
+				id: "60F425E4EE6FF48F"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создайте полимерную пластину"
+			tasks: [{
+				id: "388A18F6AE8A8DB4"
+				item: "alexscaves:polymer_plate"
+				type: "item"
+			}]
+			title: "Нахимичил"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["207F9B5E090AAC2E"]
+			description: ["Создав полимер, теперь я готов сделать одежду от радиации, чтобы дольше находиться в ядерных пещерах, да и спускаться ниже! "]
+			id: "1953391793AF7774"
+			rewards: [{
+				count: 10
+				id: "4690BD93E31C1714"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создайте комплект химзащиты"
+			tasks: [
+				{
+					id: "04FD7E729BA62C8E"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "370F57157CFF29A8"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "382ACAB734848E3B"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77B0CC40F9007B4F"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1953391793AF7774"]
+			description: ["Что за звуки! Зайдя глубже в пещеры, зазвучала сирена, когда я увидел существо похожее на крипера, но оно на много больше. Лучше избавлюсь от него, пока он не успел рвануть."]
+			id: "14960FC7DADE668A"
+			rewards: [{
+				count: 2
+				id: "477FBBC1E54A4B2B"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Убейте Ядрипера"
+			tasks: [{
+				id: "3EDBF5F656D29F8C"
+				item: "alexscaves:fissile_core"
+				type: "item"
+			}]
+			title: "Главное не уронить!"
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["14960FC7DADE668A"]
+			description: ["Дорогой дневник. Думаю мне не помешает пульт с красной кнопкой, чтобы управлять на дистанции тнт, как раз смогу открывать новые пути для себя, находясь в безопасности."]
+			id: "0E1AD5690AA7063E"
+			rewards: [{
+				id: "515FA185EF8F25BA"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создайте детектор"
+			tasks: [{
+				id: "068E498E0586ADDE"
+				item: "alexscaves:remote_detonator"
+				type: "item"
+			}]
+			title: "Игрушка пиротехника"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14960FC7DADE668A"]
+			description: ["это футуристическое оружие, воплощающее в себе передовые технологии и эстетику будущего. Светящийся луч, мощностью в несколько мегаватт,  имеет  удивительно чистый зелёный оттенок, практически без рассеяния.  Контроль и фокусировка луча осуществляются с помощью  нанотехнологических микро-зеркал, встроенных в пушку."]
+			id: "5A5D4084C3F857B9"
+			rewards: [{
+				count: 3
+				id: "534FE6D2F0E7D0E8"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создайте излучатель"
+			tasks: [{
+				id: "319F2FB71233FC48"
+				item: {
+					Count: 1
+					id: "alexscaves:raygun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Оружие не с этой планеты"
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0E1AD5690AA7063E"]
+			description: ["Я даже не знаю, как это описать. Мои испытания с тнт, прейвзошли себя, только надо быть осторожным с этим."]
+			id: "2CC763FC80004CD9"
+			rewards: [
+				{
+					id: "277EE2BD9C47E154"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "398C332604C64E6A"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Создайте ядерную бомбу"
+			tasks: [{
+				id: "3C93B0A8007C2C6C"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			title: "Не детская игрушка"
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E67A22A5EF0425A"]
+			description: [
+				"Когда я смог собрать все необходимое, я могу сделать ядерную печь. Уж думаю она будет на много эфективнее, чем простая на угле. Только надо подумать, только нужно подумать об отходах."
+				""
+				"&lИнструкция&r"
+				"Это мультиблочная структура, разместите блоки согласно рядам:"
+				"1 ряд - 2х2 блоки ядерной печи"
+				"2 ряд - 2х2 блоки ядерной печи"
+				"Бочки вам позволят сливать отходы, следите за показателем, чтобы они не переполнили печь."
+				"Запитать же печь можно урановыми стержнями."
+			]
+			id: "6A514522BE221336"
+			rewards: [
+				{
+					id: "311F98FDC31D26C9"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "69044F251669DBE9"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Создайте ядерную печь"
+			tasks: [
+				{
+					count: 8L
+					id: "4EDA25D0134EE468"
+					item: "alexscaves:nuclear_furnace_component"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "33992893A800F4D0"
+					item: { Count: 3, id: "alexscaves:metal_barrel" }
+					type: "item"
+				}
+			]
+			title: "Печь - да побыстрее"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6691B4FCC73EC9B2"]
+			description: ["В глуши раздалось чье-то мяуканье, идя на звук, я наткнулся на светящегося кота.  Он сиял мягким, изумрудным светом, словно маленькая, живая звезда.  Его шерсть переливалась, отражая свет, а глаза горели нежным, зелёным огнём.  Он был необычайно грациозен, с изящным телом и длинным, пушистым хвостом, который ритмично подёргивался.  Так вот, а если его попробовать приручить?  Вопрос висел в воздухе, словно неопределённый призыв."]
+			id: "09070122F0961017"
+			rewards: [
+				{
+					id: "7BB96E83CE97A685"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "551C09EE67813C8D"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Приручите рад-кота"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_raycat"
+				criterion: ""
+				id: "0DD1B7C6E936A123"
+				type: "advancement"
+			}]
+			title: "Зеленый кот"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6691B4FCC73EC9B2"]
+			description: ["Идя вдоль кислотных вод, я наткнулся на гигантские залежи серы.  Желтоватые,  блестящие кристаллы,  словно застывшие капли солнца,  раскинулись на многие метры,  образуя  огромный,  удивительно гладкий холм.  Запах серы был ещё более интенсивным, чем едкий запах кислотных вод,  проникая в лёгкие и вызывая жжение в носу.  Я,  пригнувшись,  начал собирать серные кристаллы,  осторожно обходя места с более высокой концентрацией кислот,  где вода словно кипела,  выпуская клубы пара.  Каждая серная глыба,  которую я поднимал,  была тяжелее,  чем ожидалось,  и  на ощупь  похожа на  раскалённый камень.  Серные кристаллы  блистали на солнце,  отражая его лучи,  словно тысячи крошечных зеркал.  Уверен, что это пригодится.  Возможно,  это поможет нейтрализовать воздействие кислот,  или  послужит основой для создания чего-то более... практичного. "]
+			id: "599942C770D5DED6"
+			rewards: [{
+				id: "05EF529F4E409DCF"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Добудьте серу"
+			tasks: [{
+				id: "0B83CE3D5A977754"
+				item: "alexscaves:sulfur_dust"
+				type: "item"
+			}]
+			title: "Золото дураков"
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	title: "Тайные разработки Энрико Ферми"
+}

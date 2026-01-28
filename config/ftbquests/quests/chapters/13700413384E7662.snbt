@@ -1,0 +1,108 @@
+{
+	always_invisible: true
+	autofocus_id: "3AC4794393788CF4"
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "13700413384E7662"
+	group: "1C5C6296275C66F6"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "enigmaticlegacy:unwitnessed_amulet"
+	id: "13700413384E7662"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "create:cuckoo_clock"
+			id: "401D450CB1D98896"
+			rewards: [{
+				auto: "no_toast"
+				command: "/msay select Что-то мне не по себе, словно что-то поменялось или кто-то следит за мной, но я никого не вижу, уйду-ка я подальше в укромное место!"
+				icon: "embers:winding_gears"
+				id: "5DC3A937E5028BBC"
+				team_reward: false
+				type: "command"
+			}]
+			shape: "gear"
+			subtitle: "Проживите 3-е суток "
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "787DDE2B27CE3A67"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 70000
+			}]
+			title: "Событие"
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			icon: "create:cuckoo_clock"
+			id: "3AC4794393788CF4"
+			rewards: [{
+				auto: "enabled"
+				command: "/msay select Фух... Прошло уже чуть больше суток, может стоит взять перерыв, я и так не понимаю, как я здесь оказался, так у меня еще есть амулет и какой-то дневник, может стоит открыть его? (P.s Дневник главный ваш путеводитель и помощник в некоторых моментах, не забывайте о нем, исследуйте и получайте награды. Чтобы его открыть нажмите на \"Е\" и выберите \"дневник\")"
+				icon: "embers:winding_gears"
+				id: "2D5E16B14723EF3F"
+				type: "command"
+			}]
+			shape: "gear"
+			subtitle: "Проживите 1 сутки"
+			tasks: [{
+				icon: "create:cuckoo_clock"
+				id: "2400DACACFB33950"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 24000
+			}]
+			title: "Событие"
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			id: "2ADBB70B14126CB3"
+			rewards: [{
+				auto: "enabled"
+				command: "/msay select Как же он выглядит грандиозно и пугающе... Стоп! Мне или показалось, что что-то или кто-то сейчас сказал \"Ты не достоин\"? Так тихо, что ели удалось разобрать, может я уже брежу? Надеюсь, что нет! Так ладно одна нога тут, другая там... А почему я не перемещаюсь? Вроде сделал все правильно, точно... В той бряхлой книжонке что-то писалось об этом, если не ошибаюсь 6 глава. Уж порой стоит ее иногда открывать. Автор дневника хоть и с приветом, но порой писал о полезных вещах."
+				icon: "embers:winding_gears"
+				id: "2287955DE501198E"
+				type: "command"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "iceandfire:cyclops_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0FC17E1B76E5A3AA"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:nether_portal"
+				type: "observation"
+			}]
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			id: "022D6B32907B773B"
+			rewards: [{
+				auto: "enabled"
+				id: "1699B854C604E2F3"
+				item: "nether_remastered:seal_piece_3"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "204E26B19F2612BA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -11.5d
+			y: -0.5d
+		}
+	]
+	title: "События"
+}

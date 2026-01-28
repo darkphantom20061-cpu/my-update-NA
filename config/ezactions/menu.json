@@ -1,0 +1,68 @@
+[
+  {
+    "id": "key_19949aa0127",
+    "title": "Дневник",
+    "icon": "ftbquests:book",
+    "action": {
+      "type": "KEY",
+      "name": "key.ftbquests.quests",
+      "toggle": false,
+      "mode": "AUTO"
+    }
+  },
+  {
+    "id": "key_19949b2cef8",
+    "title": "Навыки",
+    "icon": "irons_spellbooks:wimpy_spell_book",
+    "action": {
+      "type": "KEY",
+      "name": "key.reskillable.open_skills",
+      "toggle": false,
+      "mode": "AUTO"
+    }
+  },
+  {
+    "id": "key_1996d630385",
+    "title": "Инвентарь",
+    "icon": "explorers_companion:intermediate_backpack",
+    "action": {
+      "type": "KEY",
+      "name": "key.inventory",
+      "toggle": false,
+      "mode": "AUTO"
+    }
+  },
+  {
+    "id": "key_19949bb640b",
+    "title": "Таланты",
+    "icon": "enigmaticlegacy:hunter_guidebook",
+    "action": {
+      "type": "KEY",
+      "name": "key.display_skill_tree",
+      "toggle": false,
+      "mode": "AUTO"
+    }
+  },
+  {
+    "id": "key_19949bf89f8",
+    "title": "Поручения",
+    "icon": "irons_spellbooks:copper_spell_book",
+    "action": {
+      "type": "KEY",
+      "name": "key.realmrpg_quests.quest_book_h",
+      "toggle": false,
+      "mode": "AUTO"
+    }
+  },
+  {
+    "id": "key_19b51f2919c",
+    "title": "Карта",
+    "icon": "citadel:citadel_book",
+    "action": {
+      "type": "KEY",
+      "name": "key.journeymap.minimap_toggle_al",
+      "toggle": false,
+      "mode": "AUTO"
+    }
+  }
+]

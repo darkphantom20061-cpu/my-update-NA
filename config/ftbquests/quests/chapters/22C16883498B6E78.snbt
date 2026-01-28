@@ -1,0 +1,802 @@
+{
+	autofocus_id: "5B9CEDAFE61C3ABC"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	default_quest_size: 2.0d
+	filename: "22C16883498B6E78"
+	group: "439C3A6DE2330BF0"
+	icon: "naturalist:snail_bucket"
+	id: "22C16883498B6E78"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "480FFC6477683837"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "753BB616CB4E0D4C"
+				item: "tide:mint_carp"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			id: "4852C25DF2A4C1A0"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "11BF4FFD35365963"
+				item: "tide:clayfish"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			id: "268E429C5B499299"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "4A7A604DDC429A06"
+				item: "tide:hardened_clayfish"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -6.0d
+		}
+		{
+			id: "18BFC89F07F53380"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "1DB948679643A0CE"
+				item: "tide:trout"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.0d
+		}
+		{
+			id: "4F4440282E0EC756"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "01A5D64C8D3DE078"
+				item: "tide:angelfish"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -4.0d
+		}
+		{
+			id: "5B9CEDAFE61C3ABC"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "59176082B9F3B3BB"
+				item: "tide:barracuda"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -7.0d
+		}
+		{
+			id: "57CDCBDA7126AF75"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "5AD78F8CF0858235"
+				item: "tide:pike"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -9.0d
+		}
+		{
+			id: "054235F8608AD398"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "0EFAAFA0C53CEB9C"
+				item: "tide:sailfish"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -9.0d
+		}
+		{
+			id: "2C14098ED320EF46"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "4A97B6814597FCD0"
+				item: "tide:catfish"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -7.0d
+		}
+		{
+			id: "43610797AF125AF6"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "4F765CF0889F5258"
+				item: "tide:bass"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -11.0d
+		}
+		{
+			id: "4925409D149B6E88"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "43F01B359470C462"
+				item: "tide:tuna"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -7.0d
+		}
+		{
+			id: "580871502A2D4EAE"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "3BF195EE765F7D61"
+				item: "tide:yellow_perch"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -10.0d
+		}
+		{
+			id: "200A6CE081E1A2EB"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "579E5A4584EB008C"
+				item: "tide:ocean_perch"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -3.0d
+		}
+		{
+			id: "55751603FEE15EF5"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "7E6673811AF571CC"
+				item: "tide:guppy"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -9.0d
+		}
+		{
+			id: "0625EA45683BDE29"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "60BA1D2F847AACAE"
+				item: "tide:bluegill"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -10.0d
+		}
+		{
+			id: "6EDE8F0214F7100B"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "7BBB6A323BC87A47"
+				item: "tide:mackerel"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -5.0d
+		}
+		{
+			id: "5922A9DF443FA761"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "012C3452515F67CD"
+				item: "tide:cave_eel"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -8.0d
+		}
+		{
+			id: "3C4C4EEF6064E56D"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "0B5C5B7D13C63A35"
+				item: "tide:crystal_shrimp"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -8.0d
+		}
+		{
+			id: "3E2A9CDFD39E3181"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "70066AFA8E1A14CE"
+				item: "tide:iron_tetra"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -8.0d
+		}
+		{
+			id: "557BE99578F27ED2"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "75A94673B4A8251E"
+				item: "tide:glowfish"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -8.0d
+		}
+		{
+			id: "1632C98D6EAF967E"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "095E0DC03263BE99"
+				item: "tide:cave_crawler"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -11.0d
+		}
+		{
+			id: "19DD5F95AF4F6E63"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "69ECA0FED01DF851"
+				item: "tide:anglerfish"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -7.0d
+		}
+		{
+			id: "650B72F3A0503A84"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "773DDD2A3DB6EE9A"
+				item: "tide:gilded_minnow"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -11.0d
+		}
+		{
+			id: "75C45F3735090FCB"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "3846559AF9BF4C42"
+				item: "tide:crystalline_carp"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -11.0d
+		}
+		{
+			id: "17578C20A4304806"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "1356543A31F28BE4"
+				item: "tide:abyss_angler"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -7.0d
+		}
+		{
+			id: "784061396F54AFFE"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "25C59645F031D7E7"
+				item: "tide:lapis_lanternfish"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -10.0d
+		}
+		{
+			id: "24B380573F6E542D"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "23722428A798D9B1"
+				item: "tide:luminescent_jellyfish"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -7.0d
+		}
+		{
+			id: "4E2A82782D83A3DA"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "6415B5B28924F534"
+				item: "tide:shadow_snapper"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -9.0d
+		}
+		{
+			id: "3DDE6A5DBC91994A"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "1FBDCE582B46021D"
+				item: "tide:deep_grouper"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -5.0d
+		}
+		{
+			id: "54536B6A0E8BD9A9"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "2BF3BF3CA477989D"
+				item: "tide:bedrock_tetra"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -10.0d
+		}
+		{
+			id: "25277856115AFCF8"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "06627302E026B27E"
+				item: "tide:endstone_perch"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -10.0d
+		}
+		{
+			id: "1849585B0E7EE55F"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "2E15310E727E8767"
+				item: "tide:enderfin"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -6.0d
+		}
+		{
+			id: "71324E81E2E1E11C"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "34811C32F7543A0B"
+				item: "tide:endergazer"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.0d
+		}
+		{
+			id: "44F16D58BC64FC65"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "76236E321F249DE7"
+				item: "tide:purpur_pike"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			id: "4F1A35CE9FAF08E2"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "30E30F9B6D15EBEF"
+				item: "tide:chorus_cod"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			id: "71FAD4CF8B738283"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "1CF70A4F03D5A5BE"
+				item: "tide:elytrout"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			id: "0DD9308C9A0ED111"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "6A2F99BA55CC52EF"
+				item: "tide:prarie_pike"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -9.0d
+		}
+		{
+			id: "4EDB7FF339D26FF5"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "283E8E8B9B12DE79"
+				item: "tide:sandskipper"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -5.0d
+		}
+		{
+			id: "265131E5D95F34C9"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "42F97D751F43DCB4"
+				item: "tide:blossom_bass"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			id: "7C1D4E3AD4B6B75D"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "641AA8704503D124"
+				item: "tide:oakfish"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -8.0d
+		}
+		{
+			id: "1596D5E84D6802DE"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "68DEFDF6F67DA8A3"
+				item: "tide:frostbite_flounder"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			id: "0FA087EA92BD971C"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "67F018D70F430B58"
+				item: "tide:mirage_catfish"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -9.0d
+		}
+		{
+			id: "0394B30EBAC7556C"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "498C0FE20C3B2ECD"
+				item: "tide:echofin_snapper"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -3.0d
+		}
+		{
+			id: "40595459C259D59F"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "20FAA923660E5219"
+				item: "tide:sunspike_goby"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -3.0d
+		}
+		{
+			id: "4ACB0C5106C3A2CF"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "4B625735C6C95D93"
+				item: "tide:birch_trout"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.0d
+		}
+		{
+			id: "22101CF13F8E6216"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "7575304D3E00F3BB"
+				item: "tide:stonefish"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.0d
+		}
+		{
+			id: "3EE107B9C06B3D47"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "7008717CECA84B2C"
+				item: "tide:dripstone_darter"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -10.0d
+		}
+		{
+			id: "1D22375E34713282"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "26887492F9FB8371"
+				item: "tide:sporestalker"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -6.0d
+		}
+		{
+			id: "6910851BBD0875F4"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "1DFB319614FFBCE5"
+				item: "tide:slimefin_snapper"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -11.0d
+		}
+		{
+			id: "6FFBE03FD0166EEA"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "090EFFF937A2E1E7"
+				item: "tide:leafback"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -8.0d
+		}
+		{
+			id: "5FA698FD2EB46E03"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "2578F551B2695B6B"
+				item: "tide:fluttergill"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			id: "7C94F30E0E14DDA8"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "0D1816FF0C293173"
+				item: "tide:pine_perch"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -11.0d
+		}
+		{
+			id: "113DBCF891960A8D"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "17CACF3E6730B5C9"
+				item: "tide:ember_koi"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -7.0d
+		}
+		{
+			id: "279945981EDF126F"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "6197CF5C895EDB76"
+				item: "tide:inferno_guppy"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -6.0d
+		}
+		{
+			id: "72A4CA33DB316668"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "7514EC98A577554B"
+				item: "tide:obsidian_pike"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -8.0d
+		}
+		{
+			id: "6C17296F99D166AF"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "679BF457BD6C0F59"
+				item: "tide:volcano_tuna"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -3.0d
+		}
+		{
+			id: "527464B7223EDECF"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "4E47734E4DEE6DC5"
+				item: "tide:magma_mackerel"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -5.0d
+		}
+		{
+			id: "00636B0DB84501C2"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "3245D8CC53F08775"
+				item: "tide:warped_guppy"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			id: "298A05F5172A146C"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "093F8F87D30260AC"
+				item: "tide:crimson_fangjaw"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -5.0d
+		}
+		{
+			id: "14DE2302CDBB955A"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "46610FFB31C8F592"
+				item: "tide:ashen_perch"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -4.0d
+		}
+		{
+			id: "1180EB2A9D891A34"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "410E899102FFAF90"
+				item: "tide:witherfin"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -9.0d
+		}
+		{
+			id: "054D62E11A1CE5A9"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "78BB6B1ECF824BED"
+				item: "tide:soulscaler"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -11.0d
+		}
+		{
+			id: "6F199C5EB228C040"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "5E170E567918C86E"
+				item: {
+					Count: 1
+					id: "tide:blazing_swordfish"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -25.0d
+			y: -4.0d
+		}
+		{
+			id: "714DD626C4662B4D"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "202448F30CB8F534"
+				item: "tide:aquathorn"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			id: "68D191BE7CA7521C"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "2815CE85F0FEB623"
+				item: "tide:midas_fish"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -8.0d
+		}
+		{
+			id: "48C26E7668EE414B"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "6E11C994A55D17C4"
+				item: "tide:voidseeker"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -10.0d
+		}
+		{
+			id: "278D895325846FA1"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "78354F896496FF97"
+				item: "tide:shooting_starfish"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -10.0d
+		}
+		{
+			id: "0C25FC92C462864A"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "106E304EA848363A"
+				item: "minecraft:tropical_fish"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -4.0d
+		}
+		{
+			id: "13913E0A32C9F45F"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "21154703CD529D3C"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -9.0d
+		}
+		{
+			id: "4ACC33A90DE8CDBF"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "2311E6580E5E1E92"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -4.0d
+		}
+		{
+			id: "43EA282E0A5F527F"
+			subtitle: "Поймайте данный вид"
+			tasks: [{
+				id: "0C5C8B706BA0E0D3"
+				item: "minecraft:cod"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -6.0d
+		}
+	]
+	title: "Рыбак"
+}

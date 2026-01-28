@@ -1,0 +1,9 @@
+"Wither Changes Time (default: true)" = true
+"Mobs Avoid Wither (default: true)" = true
+"Wither Possesses Nearby Undead (default: true)" = true
+"Wither Attacks Produce Fire (default: true)" = true
+"Wither Fire Ignores Mob Griefing (default: false)" = false
+"Disable Wither Charge Attack (default: false)" = false
+"Disable Wither Laser Attack (default: false)" = false
+"Vanilla Wither Phases (default: false)" = false
+

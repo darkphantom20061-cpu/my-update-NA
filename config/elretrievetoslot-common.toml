@@ -1,0 +1,5 @@
+#-- In case of soul picking put the original item in any free slot if the target slot is occupied?
+#true - The original item will be put in any free slot. The item occupying the target slot will remain in place.
+#false - The original item will displace the item that occupies the slot and put it in a free slot.
+swapStorageItems = true
+

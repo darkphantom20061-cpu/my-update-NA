@@ -1,0 +1,106 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 2,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+    "examplemod:example_item",
+	"dungeons_and_combat:copper_helmet",
+	"dungeons_and_combat:copper_chestplate",
+	"dungeons_and_combat:copper_leggings",
+	"dungeons_and_combat:copper_boots",
+	"bf_biomes:copper_pickaxe",
+	"bf_biomes:copper_shovel",
+	"bf_biomes:copper_axe",
+	"bf_biomes:copper_sword",
+	"bf_biomes:copper_hoe",
+	"enigmaticlegacy:common_potion",
+	"enigmaticlegacy:common_potion",
+	"enigmaticlegacy:common_potion",
+	"explorers_companion:wool_fabric",
+	"scalinghealth:power_crystal_shard",
+	"scalinghealth:bandages",
+	"scalinghealth:medkit",
+	"scalinghealth:power_crystal",
+	"scalinghealth:heart_crystal",
+	"scalinghealth:power_crystal_ore",
+	"scalinghealth:deepslate_heart_crystal_ore",
+	"scalinghealth:deepslate_power_crystal_ore",
+	"scalinghealth:heart_crystal_shard",
+	"scalinghealth:heart_dust",
+	"moltenmetal:heavy_iron_armor_chestplate",
+	"moltenmetal:heavy_iron_armor_helmet",
+	"moltenmetal:heavy_golden_armor_helmet",
+	"moltenmetal:heavy_golden_armor_chestplate",
+	"moltenmetal:heavy_diamond_armor_chestplate",
+	"moltenmetal:heavy_diamond_armor_helmet",
+	"moltenmetal:heavy_netherite_armor_helmet",
+	"moltenmetal:heavy_netherite_armor_chestplate",
+	"enigmaticaddons:common_potion",
+	"EnigmaticPotion:long_frozen_heart",
+	"EnigmaticPotion:strong_mining_fatigue",
+	"scalinghealth:heart_crystal_ore",
+	"plushie_buddies:workbench",
+	"explorers_companion:fabric_paraglider",
+	"supplementaries:slidy_block",
+	"explorers_companion:leather_backpack",
+	"explorers_companion:intermediate_backpack",
+	"explorers_companion:hefty_backpack",
+	"explorers_companion:large_backpack",
+	"explorers_companion:gigantic_backpack",
+	"artifacts:night_vision_goggles",
+	"sophisticatedbackpacks:tank_upgrade",
+	"sophisticatedbackpacks:pump_upgrade",
+	"sophisticatedbackpacks:advanced_pump_upgrade",
+	"sophisticatedbackpacks:pump_upgrade",
+	"sophisticatedbackpacks:xp_pump_upgrade",
+	"dungeons_and_combat:combat_style_manual",
+        "patchouli:guide_book"
+  ],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_nbt": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": false
+}

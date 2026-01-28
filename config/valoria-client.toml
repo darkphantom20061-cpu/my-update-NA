@@ -1,0 +1,25 @@
+
+#Misc
+[misc]
+	showToasts = true
+	showUpdates = true
+
+#Graphics
+[graphics]
+	#(Y) Coordinate for Misc UI
+	miscY = 5
+	#(X) Coordinate for Misc UI
+	miscX = 4
+	#(Y) Coordinate for Magma Bar
+	magmaBarY = 5
+	#(X) Coordinate for Magma Bar
+	magmaBarX = 4
+	#Type of Magma Bar
+	#Range: 1 ~ 3
+	magmaBarType = 1
+	#Item activation on ability use
+	phantomActivationRendering = true
+	#Changes goblin model to old one
+	#You will need to reload your resources to see results
+	goblinModel = false
+

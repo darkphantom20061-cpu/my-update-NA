@@ -1,0 +1,22 @@
+{
+  "id": "Что-то_478-82-666",
+  "name": "Что-то",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--65510-waypoint-icon.png",
+  "x": 478,
+  "y": 82,
+  "z": -666,
+  "r": 255,
+  "g": 0,
+  "b": 26,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

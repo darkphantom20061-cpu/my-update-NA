@@ -1,0 +1,533 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	default_quest_size: 1.5d
+	filename: "1"
+	group: "4BDD22812699F3B9"
+	hide_quest_details_until_startable: true
+	icon: "minecraft:spyglass"
+	id: "4699B6D59D81533B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0617B90BB32C6A59"]
+			description: ["Дорогой дневник... Это безумие! Я уже разговариваю с куском бумаги. Кажется я начинаю сходить с ума от одиночества и агрессивной среды. Моя голова идёт кругом, столько вопросов: Как я сюда попал? Что со мной произошло? Почему я именно здесь!? Одно помню, сильный удар, все тело болит, голова особенно. Спасибо, что ещё жив. Хех, частицы надежды на лучшее ещё живы. Надо в первую очередь позаботиться о себе, подлатать себя и найти или сделать ночлег с теплым костром. Навевает приятными, но расплывчатыми воспоминаниями, костёр у пруда, звуки природы.... Так ладно! Пора действовать! Кажется я нашел единственный способ удержать остатки здравомыслия - писать. Сразу боевой настрой поднялся! "]
+			id: "30BD6B5D434C7133"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/msay select …Хех. Он тоже начал с этого. Голова болит, мир рушится, а он — «надо костёр». И я — то же самое. Стою, дрожу от холода, а в голове только: «развести огонь, иначе не доживу». Он писал себе, чтобы не сойти с ума. А я… я просто повторяю его шаги. Но знаешь что? Пока огонь горит — мне не так страшно. Может, это и есть его «остатки здравомыслия»? Просто… не стоять на месте."
+					icon: "embers:winding_gears"
+					id: "3CB0FA463B20E27C"
+					title: "Нажми на меня"
+					type: "command"
+				}
+				{
+					id: "3157E88CD5BB272B"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Создайте 1-й костер"
+			tasks: [{
+				id: "01359D0FE2826423"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "Тепло и уют"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08F4BA987CB91228"]
+			description: [
+				"Дорогой дневник… Идея рюкзака из шкуры не выходит у меня из головы. И дело не только в удобстве – мои карманы трещат по швам! Каждая вылазка за пропитанием превращается в мучение: травы, ягоды, найденные полезные мелочи… Все это еле помещается, и я постоянно боюсь что-то потерять. Рюкзак – это не просто прихоть, а жизненная необходимость."
+				"Останавливает только одно – инструмент для раскроя шкуры. Ножниц, конечно, не найти, но я знаю, как их сделать!"
+			]
+			id: "02FF3FB279C0F396"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/msay select Шкура оказалась твёрже, чем казалась. Руки в царапинах, пальцы ныют… но хотя бы нарезал. Теперь — ждать, пока высохнет. Он писал: «рюкзак — необходимость». Я думал, он преувеличивает. А теперь понимаю: без него я даже в ближайший лес не схожу — всё вывалится по дороге. Ладно. Главное — начал. Осталось только не испортить всё на последнем шаге."
+					icon: "embers:winding_gears"
+					id: "73A7706D208D168A"
+					title: "нажми на меня"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "325218D134A6B736"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Создайте обработанную шкуру"
+			tasks: [{
+				count: 6L
+				id: "243E570A08E5ED4E"
+				item: "explorers_companion:leather_hide"
+				type: "item"
+			}]
+			title: "Коровку жалко"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02FF3FB279C0F396"]
+			description: ["У меня уже есть шкура, которую я заготовил несколько дней назад. Она вполне подойдет для изготовления простого рюкзака. Осталось только найти прочные волокна для шитья...."]
+			id: "085E113E8E301F44"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/msay select Руки в порезах, пальцы натерты до крови… но рюкзак готов. Не красивый, не прочный на века — но мой. Он держит всё: травы, кремень, остатки еды. Ничего не вываливается. Ничего не теряю. И впервые за всё это время я чувствую — я не просто таскаю вещи. Я ношу свой дом за спиной."
+					icon: "embers:winding_gears"
+					id: "57F31D0372F36EAC"
+					title: "нажми на меня"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "6C04B1E17FF088E4"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Создайте рюкзак"
+			tasks: [{
+				id: "106E9EFA51932A88"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Я - Рюкзак..."
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EAA7E15CB429C02"]
+			description: ["Лишние пару карманов никогда не помешают!"]
+			id: "37170F2D9FD878A1"
+			rewards: [{
+				count: 2
+				id: "253E3FE57621E3F9"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Улучшите рюкзак"
+			tasks: [{
+				id: "1F802DA581868A07"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			title: "Сумочка от шанель"
+			x: 5.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["37170F2D9FD878A1"]
+			description: ["Лишние пару карманов никогда не помешают!"]
+			id: "406C919CDB7E620C"
+			rewards: [{
+				count: 2
+				id: "412DF62FE4461777"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Улучшите рюкзак"
+			tasks: [{
+				id: "634B0452FFDA3A5E"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "Мечта путешествиника"
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["406C919CDB7E620C"]
+			description: ["Лишние пару карманов никогда не помешают!"]
+			id: "5CAAE99C2F12D2AD"
+			rewards: [{
+				count: 2
+				id: "7C23569C02EDC307"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Улучшите рюкзак"
+			tasks: [{
+				id: "1387FA0ADFB28CE4"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			title: "Дамская сумка, не потеряйся!"
+			x: 0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["30BD6B5D434C7133"]
+			description: [
+				"Дорогой дневник… Металл… Я думаю только о металле! Железо – это пока недостижимая вершина, но медь… Медь – это мой шанс изменить все. Медный топор поможет мне строить крепкий дом, медный меч защитит от незванных гостей, а медная кирка позволит добывать больше руды. И, конечно, медная броня! Пусть даже не полная, пусть даже просто нагрудник – это уже огромный шаг вперед в моей безопасности."
+				"Я слышал, что медь плавится при гораздо меньшей температуре, чем железо. Значит, это возможно! Главное – найти руду и овладеть процессом плавки."
+			]
+			id: "5771E4C868881E45"
+			rewards: [
+				{
+					id: "272671E653DF51FD"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/msay select Руки в ожогах, спина ломит, но в руках — медный топор. Не волшебный. Не легендарный. Просто первый настоящий инструмент. В тех рассказах всё начиналось с меча или артефакта… А у меня — с куска руды и дымящегося горна. Но знаешь что? Когда дерево падает с одного удара — это чувствуется как победа. Настоящая. Не из сюжета. А из рук. И впервые я не думаю: «как выжить до завтра». Я думаю: «что построю послезавтра»."
+					icon: "embers:winding_gears"
+					id: "6040F39A190E5C57"
+					title: "нажми на меня"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "6E2BF4E259D026FF"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Создайте медные инструменты"
+			tasks: [
+				{
+					id: "1A7D63E054908678"
+					item: {
+						Count: 1
+						id: "bf_biomes:copper_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17988F37D46DCB4E"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:copper_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FC16463F8ABC579"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:copper_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "732B7A7F7A143E47"
+					item: {
+						Count: 1
+						id: "dungeons_and_combat:copper_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Медный век"
+			x: 0.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["5771E4C868881E45"]
+			description: ["Нагрудник конечно хорошо, но мне не повредит и полный комлект, главное не попасть под дождь с грозой..."]
+			id: "5EC1DFA55EF956F9"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/msay select Медный нагрудник — уже спасал жизнь. А теперь весь комплект: шлем, наручи, поножи… Даже дышать тяжелее, но зато чувствую себя не голым перед лесом, а — готовым. Правда, стою под открытым небом и нервничаю: вспоминаю школьные уроки — мол, металл и гроза не друзья. Если сейчас грянет молния, я стану не защитником, а громоотводом. Но пока туч нет — а значит, пока я в выигрыше. Медь холодна, но надёжна. И впервые за всё время я не просто прячусь. Я — стою."
+					icon: "embers:winding_gears"
+					id: "3FE95111FDEE42DB"
+					title: "Нажми на меня"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "550FCBE02753C1AB"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Создайте полный комплект медной брони"
+			tasks: [
+				{
+					id: "41DB9C7CC71AD23D"
+					item: {
+						Count: 1
+						id: "bf_biomes:copper_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B54D0911D0B459F"
+					item: {
+						Count: 1
+						id: "bf_biomes:copper_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "042FD7A9858462A2"
+					item: {
+						Count: 1
+						id: "bf_biomes:copper_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2781C50DB5C60D54"
+					item: {
+						Count: 1
+						id: "bf_biomes:copper_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Подверженный окислению"
+			x: -1.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["5CAAE99C2F12D2AD"]
+			description: ["Лишние пару карманов никогда не помешают!"]
+			id: "3CD15C513876EB59"
+			rewards: [{
+				count: 5
+				id: "4A53EC38EECCD10D"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Улучшите рюкзак"
+			tasks: [{
+				id: "1E57F7F7BEE62199"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			title: "Капациус Экстремис"
+			x: -1.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["085E113E8E301F44"]
+			description: ["Не забудь достать все вещи из рюкзака перед улучшением! Особенно проверь карманы — они могут быть дырявые или рваные, и всё равно могут попасться важные мелочи. Лучше всё вытащить заранее, чтобы ничто не потерять или не повредить во время апгрейда!"]
+			icon: "born_in_chaos_v1:bagof_candy"
+			id: "3EAA7E15CB429C02"
+			subtitle: "Обучающее пособие"
+			tasks: [{
+				id: "27E649D8808230D2"
+				title: "Дырявые карманы"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["30BD6B5D434C7133"]
+			description: ["Не может быть! Спустя столько времяни, со мной кто-то заговорил! Конечно я не мало исспугался, когда со мной заговорил предмет, он не из говорливых, но видимо следит за мной давно, да и за каждым шагом!"]
+			id: "08F4BA987CB91228"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/msay select Что!? Нет-нет, я думал автор уже сошел с ума, но он писал правду. Допустим - Привет? Оу.. а в ответ - тишина."
+					icon: "embers:winding_gears"
+					id: "1672204320727D17"
+					title: "нажми на меня"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "76C778CFD1CF1B02"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Найдите загадочное око"
+			tasks: [{
+				id: "4CF1E5B85E675B50"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_eye"
+					tag: {
+						ActivationAnimation: -1
+						IsDormant: 0b
+					}
+				}
+				type: "item"
+			}]
+			title: "Оно говорит!"
+			x: 0.75d
+			y: 0.0d
+		}
+		{
+			icon: "embers:winding_gears"
+			id: "0617B90BB32C6A59"
+			rewards: [{
+				auto: "enabled"
+				command: "/msay select Ай… моя голова…  ГДЕ Я?!  Вокруг ни души. Даже обратиться не к кому.  Это ещё что?..  Дневник?  Не припомню, чтобы я его вёл… Подчерк — точно не мой.  Столько записей… Он тут жил. Неделю? Две?  Уже почти вечер.  И я, конечно, не умею тут выживать! Какое совпадение! Но… почему он лежит именно здесь?  Прямо под ногами — будто ждал, пока я очнусь.  Может, он оставил его… не просто так?  Ладно.  Если он начал с костра — и я начну.  Главное — не сжечь себя..."
+				icon: "embers:winding_gears"
+				id: "6C6BF46515D5D127"
+				title: "Твои мысли"
+				type: "command"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4D1C6CB76D184AEA"
+				title: "Нажми на меня"
+				type: "checkmark"
+			}]
+			title: "Старт!"
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5771E4C868881E45"]
+			description: ["Как же мне не нравится, что я не понимаю точной температуры за окном, мне бы не помешал наипростейший градусник. "]
+			id: "29569AA513BC4101"
+			rewards: [
+				{
+					command: "/msay select И вправду удобно, сколько там сейчас?"
+					icon: "embers:winding_gears"
+					id: "0F209C4120C5CE26"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "005D442370BDF567"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			subtitle: "Сделайте градусник"
+			tasks: [{
+				id: "3AD07254F4B8DF7B"
+				item: "cold_sweat:thermometer"
+				type: "item"
+			}]
+			title: "Полезная побрякушка"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["32CB11AE03CCCD4E"]
+			description: ["Хватит держать всё в голове. Память это не хранилище, она стирается, как след на мокром камне. С сегодняшнего дня я буду фиксировать полученные знания! Писать буду не для красоты. Писать так, чтобы через месяц, через год, даже если рука дрожит от усталости, читалось легко и ясно. Каждый свиток - не отчёт, а инструмент!"]
+			icon: "skilltree:wisdom_scroll"
+			id: "194E289C67CC8A1F"
+			rewards: [
+				{
+					count: 20
+					id: "64A371F456DC0F99"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "549E2FE73B45B206"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Научитесь делать свитки мудрости"
+			tasks: [
+				{
+					id: "31A3C6ACF665B52A"
+					item: "irons_spellbooks:epic_ink"
+					type: "item"
+				}
+				{
+					count: 192L
+					id: "1833AFA5A20408D3"
+					item: { Count: 192, id: "minecraft:experience_bottle" }
+					type: "item"
+				}
+				{
+					id: "3B4ACF162842C9A0"
+					item: "irons_spellbooks:magic_cloth"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1C7B61295CA75383"
+					item: { Count: 5, id: "enigmaticaddons:earth_heart_fragment" }
+					type: "item"
+				}
+			]
+			title: "Записи мудреца"
+			x: 7.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["3CD15C513876EB59"]
+			description: ["Лишние пару карманов никогда не помешают!"]
+			id: "4293CD415B2A3037"
+			rewards: [
+				{
+					count: 10
+					id: "5A33EE0AD391C61D"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "4909979981835180"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Улучшите рюкзак до максимального уровня"
+			tasks: [{
+				id: "069A99BEF373D2A5"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			title: "Очень-приочень большие карманы"
+			x: -3.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["29569AA513BC4101"]
+			description: ["Верстак для начала: для досок, для мечей из дерева, для тех, кто ещё верит, что его хватит на долго... Но как только ты берёшься за что-то более сложное, за формы, за детали с подгонкой, то верстак становится тесным, как старая обувь: не мешает, но и не помогает. Я пробовал многое,  класть заготовку, прижимать её коленом, одной рукой держать инструмент, второй - деталь, и каждый раз что-то съезжало, угол уходил, стык не ложился. Однажды при сборке крепления для мехов у меня сдвинулась основа на два пальца, что привело к перекосу по всей конструкции, пришлось переделывать с нуля. Тогда я понял: нужен стол, где можно зафиксировать, а не удерживать."]
+			id: "32CB11AE03CCCD4E"
+			rewards: [{
+				count: 2
+				id: "15EC0734B6630E1E"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Сделайте рабочий стол"
+			tasks: [{
+				id: "62E67191E4802E75"
+				item: "skilltree:workbench"
+				type: "item"
+			}]
+			title: "Мастер на все руки"
+			x: 5.25d
+			y: -2.25d
+		}
+	]
+	title: "Глава 1 \"Новое Путешествие\""
+}

@@ -1,0 +1,1093 @@
+{
+	autofocus_id: "026478BB1DFD4BD8"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "10"
+	group: "4BDD22812699F3B9"
+	icon: "tide:shooting_starfish"
+	id: "4F7DAF0364757999"
+	images: [
+		{
+			height: 2.0d
+			image: "skilltree:textures/screen/favorite_skill.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			height: 3.0d
+			image: "skilltree:textures/screen/favorite_skill.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			height: 2.0d
+			image: "skilltree:textures/screen/favorite_skill.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "skilltree:textures/screen/favorite_skill.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -14.0d
+			y: -2.5d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["43FA2077F86B4EDB"]
+			id: "60077E6BB872E485"
+			rewards: [{
+				id: "24ECCAA051B68841"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создание"
+			tasks: [{
+				id: "3477B4ED331B4D3D"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["43FA2077F86B4EDB"]
+			id: "7164678D6E804B17"
+			rewards: [{
+				id: "3F3B5D1C83E66B3E"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создание"
+			tasks: [{
+				id: "4412E9C086CDBF62"
+				item: {
+					Count: 1
+					id: "tide:stone_fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43FA2077F86B4EDB"]
+			id: "646A252280A6F2C7"
+			rewards: [{
+				id: "69AAA50C47CD25CB"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создание"
+			tasks: [{
+				id: "4A2C6C0E509B5016"
+				item: {
+					Count: 1
+					id: "tide:iron_fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["43FA2077F86B4EDB"]
+			id: "3DDD8B64542A54F2"
+			rewards: [{
+				count: 2
+				id: "70D7E94742E4668C"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создание"
+			tasks: [{
+				id: "1B24154DB2B450CE"
+				item: {
+					Count: 1
+					id: "tide:golden_fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["43FA2077F86B4EDB"]
+			id: "67DE2D499CCD3BB9"
+			rewards: [{
+				count: 2
+				id: "7177D8297AB1EA7F"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создание"
+			tasks: [{
+				id: "3DBAEDA3C7A1ED49"
+				item: {
+					Count: 1
+					id: "tide:crystal_fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43FA2077F86B4EDB"]
+			id: "3AB50A114A3CC376"
+			rewards: [{
+				count: 2
+				id: "52BACC3C591BC8A6"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создание"
+			tasks: [{
+				id: "1A691A9C9955B8BF"
+				item: {
+					Count: 1
+					id: "tide:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43FA2077F86B4EDB"]
+			id: "08A1C19252AEB19B"
+			rewards: [{
+				count: 5
+				id: "627D7E5A63B859E9"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создание"
+			tasks: [{
+				id: "1FD752272540E354"
+				item: {
+					Count: 1
+					id: "tide:netherite_fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"60077E6BB872E485"
+				"08A1C19252AEB19B"
+				"67DE2D499CCD3BB9"
+				"3DDD8B64542A54F2"
+				"646A252280A6F2C7"
+				"3AB50A114A3CC376"
+				"7164678D6E804B17"
+			]
+			description: ["Создал. Все виды — от самой простой до той, что ловит не рыбу, а удачу."]
+			icon: {
+				Count: 1
+				id: "netherexp:skull_on_a_stick"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "27C86253C7551EAA"
+			rewards: [
+				{
+					count: 2
+					id: "0851F27D7A71AF53"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5F7467425F8FE485"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Создайте все виды удочек"
+			tasks: [{
+				advancement: "tide:all_fishing_rods"
+				criterion: ""
+				id: "682EA1B2947978B7"
+				type: "advancement"
+			}]
+			title: "К рыбалке готов"
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B4A328705D27150"]
+			description: [
+				"потрёпанная тетрадь в кожаном переплёте, которую я подобрал у развалин старой хижины. Сначала думал выбросить — страницы пустые, чернила выцвели. Но потом поймал первую рыбу — мелкую, серебристую, с глазами, как у тех, кто знает тайны рек. Положил её на страницу, чтобы зарисовать… а она оставила отпечаток. Не мокрый. Не грязный. Просто след — как будто река сама вписала её в историю."
+				"Теперь каждый улов — запись. Не словами, а отпечатком чешуи, изгибом плавника, тенью от хвоста. Журнал не считает, сколько штук. Он помнит — какая рыба смотрела в глаза, а какая ушла, не коснувшись крючка."
+				"Иногда, ночью, страницы шелестят сами."
+				"Наверное, рыбы рассказывают друг другу, кто их поймал."
+			]
+			id: "026478BB1DFD4BD8"
+			rewards: [{
+				id: "3BE09633E3BB099B"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Создайте журнал рыбака"
+			tasks: [{
+				id: "1AC6DE8896488F99"
+				item: "tide:fishing_journal"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["026478BB1DFD4BD8"]
+			description: [
+				"не кузница и не алхимическая лаборатория. Простой деревянный стол у самого берега, где ветер сушит леску, а солнце греет рукояти. На поверхности — царапины от ножа, пятна от смолы, следы рыбьей чешуи, которые уже не отмоешь. Здесь не куют — доводят. Подбирают жилу под течение, гнут древко под руку, точат крючок так, чтобы он не резал воду, а просил разрешения войти."
+				"Каждая удочка, что лежит на столе, становится чуточку умнее. Не от железа или зачарований — от времени, проведённого рядом с рекой."
+				"Я не рыбак."
+				"Я учусь слушать воду."
+				"А стол — мой учитель."
+			]
+			id: "5813EA0C9C7A1DED"
+			rewards: [{
+				id: "2AC2C80C5E630494"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Создайте мастерскую рыболова"
+			tasks: [{
+				id: "65EC2E2B1B930A9A"
+				item: "tide:angler_workshop"
+				type: "item"
+			}]
+			title: "Мастер по палкам"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C4D0B470114956E"]
+			id: "56427D4AC941534A"
+			rewards: [{
+				id: "111538102F50F3CE"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создайте наживку"
+			tasks: [{
+				id: "7B263F174BFCF9F9"
+				item: "tide:bait"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C4D0B470114956E"]
+			id: "688784112F007C82"
+			rewards: [{
+				id: "5A8178332FD01D3A"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создайте наживку"
+			tasks: [{
+				id: "2B6FF34CFA1BF08A"
+				item: "tide:lucky_bait"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2C4D0B470114956E"]
+			id: "40A33CEAD9C3E1B9"
+			rewards: [{
+				id: "4F87C6857F61586E"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Создайте наживку"
+			tasks: [{
+				id: "448CEF5A6441679B"
+				item: "tide:magnetic_bait"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "4F90D2D04F99C483"
+			rewards: [{
+				id: "211F8B131A2CE817"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Улучшение"
+			tasks: [{
+				id: "0DCAD719C3132E92"
+				item: "tide:fishing_hook"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "40EB5C6F22AA2E73"
+			rewards: [{
+				id: "0C95BD0DE066E407"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Улучшение"
+			tasks: [{
+				id: "20EA26C92D393117"
+				item: "tide:iron_fishing_hook"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "0D24E3F08616BFAF"
+			rewards: [{
+				id: "47F1D307D3AAF68E"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Улучшение"
+			tasks: [{
+				id: "022000CEB9A4D962"
+				item: "tide:lavaproof_fishing_hook"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["026478BB1DFD4BD8"]
+			description: ["Дед бы мной гордился"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "tide:shooting_starfish"
+			id: "4B6731532828202C"
+			rewards: [
+				{
+					count: 5
+					id: "4C7818AF12D520C0"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 50
+					id: "2FC42B22EC2BFDFF"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Поймайте все виды рыб"
+			tasks: [{
+				advancement: "tide:journal_completed"
+				criterion: ""
+				id: "45B06ED36309FF44"
+				type: "advancement"
+			}]
+			title: "Я поймал их всех!"
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "4C38DCEFAFAC5882"
+			rewards: [{
+				id: "3980867FD59E6137"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Улучшение"
+			tasks: [{
+				id: "015A5916A8AD2EB0"
+				item: "tide:fishing_line"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "67A8272837C15FFA"
+			rewards: [{
+				id: "2079AD650F92DC87"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Улучшение"
+			tasks: [{
+				id: "6A26C99421EE2C98"
+				item: "tide:braided_line"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "0E8C1431AB90E5F0"
+			rewards: [{
+				id: "14B90CEC3E667524"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Улучшение"
+			tasks: [{
+				id: "60C032B332F47F5F"
+				item: "tide:reinforced_line"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "2A013877CC29E03F"
+			rewards: [{
+				id: "439B132DAD856C0A"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Улучшение"
+			tasks: [{
+				id: "63FE4DDCE70675D1"
+				item: "tide:fortune_line"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "4E3162D27FA87253"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "4E0CADB7032EC5D8"
+				item: "tide:red_fishing_bobber"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "02E838942CA24D25"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "09539222552BD54A"
+				item: "tide:orange_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "266DFE5C173FEF36"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "568D58618E93C4D2"
+				item: "tide:lime_fishing_bobber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "0CDBEDA470B254DA"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "051E2E9EED38D045"
+				item: "tide:yellow_fishing_bobber"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "1D23B13D1218F216"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "32CD0B08D6ED5D6A"
+				item: "tide:green_fishing_bobber"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "2BCF76154D6B6A1D"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "1DE8B3CD81470EF3"
+				item: "tide:cyan_fishing_bobber"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "270C4848A237C26C"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "2C109A83F81FFE61"
+				item: "tide:light_blue_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "70A21F885E2607D8"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "55D2C1E72200E45F"
+				item: "tide:blue_fishing_bobber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "5F8D3D49156DEE24"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "046540AB313EAA1A"
+				item: "tide:purple_fishing_bobber"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "22C2BFA92B359C2C"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "178C1E32DF7E51B6"
+				item: "tide:magenta_fishing_bobber"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "7906DDD1E5857E2D"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "1E9D8E8DA2793568"
+				item: "tide:pink_fishing_bobber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "7B3EB725D2A53EB4"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "27C21BA8404E8B9D"
+				item: "tide:white_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "02CF977400AD576E"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "746F394D0FF0F686"
+				item: "tide:light_gray_fishing_bobber"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "4D1F390478041053"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "668489DC2EE66F53"
+				item: "tide:gray_fishing_bobber"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "4AFA19F357B9C39D"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "610B0789AA8340A5"
+				item: "tide:black_fishing_bobber"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "20AB4039D7F6DCF8"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "273869E7592D874A"
+				item: "tide:brown_fishing_bobber"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "6622E7C5FD83F65E"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "1DA4C961C155EA19"
+				item: "tide:apple_fishing_bobber"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "6865C92CA09D175D"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "56ECE519D3150258"
+				item: "tide:golden_apple_fishing_bobber"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "177FB879C645F596"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "5339F3BFF2652B2F"
+				item: "tide:enchanted_golden_apple_fishing_bobber"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "68D4CF5892A41271"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "0E1E967B98EE5EC9"
+				item: "tide:iron_fishing_bobber"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "04A5A9090C2FA2E4"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "287AE280397A0C1E"
+				item: "tide:golden_fishing_bobber"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "629D6D10B38D1D0B"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "12D8BD4BE09E2BBB"
+				item: "tide:diamond_fishing_bobber"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "0BDD7F1DD7B56D34"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "683765B819A2EF59"
+				item: "tide:netherite_fishing_bobber"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "1234DA114B3F0BCB"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "38BFB3801AD63CC0"
+				item: "tide:amethyst_fishing_bobber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "6A08B02402B112E1"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "230DF6020969B361"
+				item: "tide:echo_fishing_bobber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "0A2DC49F9050FC20"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "4E5D4D45683FF3D0"
+				item: "tide:chorus_fishing_bobber"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "3569FF713C540C74"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "4971DBC308C83947"
+				item: "tide:feather_fishing_bobber"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "6584425EAB047F35"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "3FA38B4B888E3F14"
+				item: "tide:lichen_fishing_bobber"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "5E8F5488C3B75521"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "1E53D8B4C6B89494"
+				item: "tide:nautilus_fishing_bobber"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "378020E0FD06E29E"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "7FE3C5A9F11B85DC"
+				item: "tide:pearl_fishing_bobber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "755C170CA840E1F6"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "02D2CF864BF93916"
+				item: "tide:heart_fishing_bobber"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			id: "1C47257CE9996001"
+			subtitle: "Коллекционер"
+			tasks: [{
+				id: "5539E3C6A0B4EAFB"
+				item: "tide:grassy_fishing_bobber"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7B3EB725D2A53EB4"
+				"2BCF76154D6B6A1D"
+				"270C4848A237C26C"
+				"0CDBEDA470B254DA"
+				"1D23B13D1218F216"
+				"20AB4039D7F6DCF8"
+				"4E3162D27FA87253"
+				"266DFE5C173FEF36"
+				"02E838942CA24D25"
+				"22C2BFA92B359C2C"
+				"7906DDD1E5857E2D"
+				"02CF977400AD576E"
+				"4D1F390478041053"
+				"70A21F885E2607D8"
+				"5F8D3D49156DEE24"
+				"4AFA19F357B9C39D"
+				"1234DA114B3F0BCB"
+				"378020E0FD06E29E"
+				"5E8F5488C3B75521"
+				"0BDD7F1DD7B56D34"
+				"3569FF713C540C74"
+				"0A2DC49F9050FC20"
+				"6584425EAB047F35"
+				"755C170CA840E1F6"
+				"1C47257CE9996001"
+				"6A08B02402B112E1"
+				"6622E7C5FD83F65E"
+				"68D4CF5892A41271"
+				"04A5A9090C2FA2E4"
+				"0BDD7F1DD7B56D34"
+				"629D6D10B38D1D0B"
+				"6865C92CA09D175D"
+				"177FB879C645F596"
+			]
+			description: ["Один туда, один сюда"]
+			icon: "tide:fish_bone"
+			id: "64B4D2BB06EB70CF"
+			rewards: [
+				{
+					count: 3
+					id: "50F2AE8B27F268E0"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "2B0E9A0C09A22681"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Создайте все поплавки"
+			tasks: [{
+				id: "3334B816B5601355"
+				type: "checkmark"
+			}]
+			title: "Хоть гирлянду делай"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Раньше я думал, что рыбалка — это про улов."
+				"Про крючок, про терпение, про «кто больше поймал»."
+				"Ммм... Дед с палкой, верёвка вместо лески, червяк, который всё время слезал. Мы сидели на мостке, молчали, и иногда — очень редко — что-то дёргало за нитку. Я кричал, он смеялся, рыба уходила."
+				"Теперь я далеко от того мостка."
+				"Новые реки, новые берега. Ни болот, ни туманов — только вода, солнце и ветер в камышах."
+				"Я достал удочку не ради еды. Не ради дела."
+				"Просто вспомнил, как это — ничего не ждать, но всё равно ждать."
+			]
+			icon: "alexscaves:trilocaris_bucket"
+			id: "5B4A328705D27150"
+			size: 1.5d
+			subtitle: "1 раза хватит на всю жизнь"
+			tasks: [{
+				id: "5D78895DD26808F0"
+				title: "Нажми на меня"
+				type: "checkmark"
+			}]
+			title: "Начинающий рыбачок"
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5813EA0C9C7A1DED"]
+			description: [
+				"Рыба тоже любит кушать — и не меньше нас. Только у неё нет ложек, но зато есть инстинкт. Червяк — классика: дёшево, сердито, работает даже в дождь. Личинка — для приверед: белая, сочная, ворочается на крючке, как будто боится. Кусочек хлеба — для мирных, тех, кто плавает у берега и верит, что мир добр."
+				"А есть наживки, что не едят, а зовут. Блестящая чешуйка — приманка для хищника, который охотится не на еду, а на славу. Капля крови — для тех, кто помнит вкус страха. И редкая, почти мифическая — луна в капле росы, но её не насадишь на крючок. Её кладут в воду рядом… и ждут, кто выйдет из глубины не поесть, а поговорить."
+			]
+			icon: {
+				Count: 1
+				id: "naturalist:bug_net"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C4D0B470114956E"
+			size: 1.5d
+			subtitle: "Создайте свою первую наживку"
+			tasks: [{
+				id: "583BA509EC176973"
+				title: "Нажми на меня"
+				type: "checkmark"
+			}]
+			title: "Рыба тоже любит кушать"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B4A328705D27150"]
+			description: [
+				"Не на палец же ловить."
+				"Стою у реки, держу в руках грубую палку с привязанной леской — и чувствую себя глупо. Вокруг тишина, вода блестит, а я будто нарушаю покой. Рыба, наверное, давно ушла, как только увидела мою самоделку."
+				"Но потом вспоминаю: рыбалка — не про хитрость. Не про крючок."
+				"Она про остановку."
+				"Про то, чтобы хоть на час перестать быть тем, кто строит, кует, сражается."
+				"Просто стоять. Смотреть. Ждать."
+				"Удочка дрожит."
+				"Может, это ветер."
+				"А может — начало."
+			]
+			icon: "create:brass_hand"
+			id: "43FA2077F86B4EDB"
+			size: 1.5d
+			subtitle: "Создайте свою первую удочку"
+			tasks: [{
+				id: "47C233F333BC884C"
+				title: "Нажми на меня"
+				type: "checkmark"
+			}]
+			title: "Не на палец же ловить?"
+			x: -12.0d
+			y: -1.5d
+		}
+	]
+	title: "Глава 9 \"Теперь я тут Фишмен\""
+}

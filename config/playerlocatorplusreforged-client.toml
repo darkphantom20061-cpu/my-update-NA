@@ -1,0 +1,29 @@
+
+#Client-side configuration for Player Locator Plus
+[client]
+	#Show the player locator overlay?
+	visible = true
+	#Show the locator even when no markers are present?
+	visibleEmpty = false
+	#Allow the server to override client settings?
+	acceptServerConfig = true
+	#Fade markers of far away players?
+	fadeMarkers = true
+	#Distance at which markers start fading.
+	#Range: 0.0 ~ 1000000.0
+	fadeStart = 100.0
+	#Distance at which markers reach final opacity.
+	#Range: 0.0 ~ 1000000.0
+	fadeEnd = 1000.0
+	#Opacity at fade end (0-1).
+	#Range: 0.0 ~ 1.0
+	fadeEndOpacity = 0.3
+	#Show arrows indicating large height differences?
+	showHeight = true
+	#Always show player heads on markers? (overrides TAB behaviour)
+	alwaysShowHeads = false
+	#Show player heads when the Tab list key is pressed?
+	showHeadsOnTab = true
+	#Show player name plaques when the Tab list key is pressed?
+	showNamesOnTab = true
+
